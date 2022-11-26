@@ -11,6 +11,7 @@ function Header() {
         <li>Users</li>
       </ul>
       <img width={400} src={ImageHeader} alt="Logo do header" />
+      <figcaption>Blog Btix</figcaption>
     </nav>
   )
 }
