@@ -6,11 +6,11 @@ function Header() {
   return (
     <nav>
       <ul>
-        <img width={100} src={Logo} alt="" />
+        <img width={100} src={Logo} alt="Logo da empresa Btix" />
         <li>Posts</li>
         <li>Users</li>
       </ul>
-      <img width={400} src={ImageHeader} alt="" />
+      <img width={400} src={ImageHeader} alt="Logo do header" />
     </nav>
   )
 }
