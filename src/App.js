@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './pages/HomePage'
-import Comments from './pages/CommentsPage'
+
+import CommentsId from './pages/CommentsIdPage';
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
@@ -9,7 +10,8 @@ function App() {
     <Router>
       <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/comments' element={<Comments />} />
+     
+      <Route path='/comments/:id' element={<CommentsId />} />
       </Routes>
     </Router>
   );
