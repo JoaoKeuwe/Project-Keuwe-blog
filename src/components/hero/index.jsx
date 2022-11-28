@@ -1,19 +1,19 @@
 import React from 'react'
 import Logo from '../../images/logo.webp'
-import styles from './style.module.css'
+import * as S from './style'
 
 function Hero() {
   return (
-    <header className={styles.header}>
-      <nav>
+    <S.HeaderHero>
+      <S.NavMenu>
         <img width={120} src={Logo} alt="Logo da empresa Btix" />
-        <div className={styles.nav_options}>
+        <S.NavOptions>
           <a href='/'>Posts</a>
           <a href='/'>Users</a>
-        </div>
-      </nav>
-      <h1 className={styles.header_title}>Blog Btix</h1>
-    </header>
+        </S.NavOptions>
+      </S.NavMenu>
+      <h1>Blog Btix</h1>
+    </S.HeaderHero>
   )
 }
 
