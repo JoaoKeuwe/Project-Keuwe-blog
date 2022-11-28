@@ -51,12 +51,6 @@ function Home() {
             body={post.body}
           />
 
-          <button value={post.id} key={post.title} onClick={async (e) => {
-            const comentarios = await fetch(`https://jsonplaceholder.typicode.com/posts/${e.target.value}}/comments`)
-            const requestComments = await comentarios.json()
-            setPostComments(requestComments);
-            console.log(requestComments, e.target.value);
-          }}>teste</button>
         </main>
       ))}
 
