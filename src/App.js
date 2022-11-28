@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './pages/HomePage'
-import Comments from './pages/Comments'
+import Comments from './pages/CommentsPage'
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
