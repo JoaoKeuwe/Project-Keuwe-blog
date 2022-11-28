@@ -4,9 +4,10 @@ import { Link } from "react-router-dom"
 function PostCard({ id, title, body }) {
   return (
     <main>
-      <Link to={`/comments/${id}`}> <p>{id}</p></Link>
-      <h2>{title}</h2>
-      <p>{body}</p>
+      <Link to={`/comments/${id}`}>
+        <h2>{title}</h2>
+        <p>{body}</p>
+      </Link>
       <hr />
     </main>
   )
