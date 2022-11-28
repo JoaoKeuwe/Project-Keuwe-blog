@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from '../components/Header'
+import Header from '../components/hero'
 import Home from '../components/Home';
+import '../styles/Reset.css'
 
 function HomePage() {
 
