@@ -1,5 +1,5 @@
 import React from 'react'
-import CommentsId from '../components/CommentsId'
+import CommentsId from '../components/commentsId'
 
 function CommentsIdPage() {
   return (
