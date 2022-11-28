@@ -21,8 +21,10 @@ function Comments() {
       {comments.map((comments) => (
         <main>
           <p>{comments.id}</p>
+          <br />
+           <p> {comments.name}</p>
           <p>{comments.body}</p>
-          <p>{comments.name}</p>
+          <br />
         </main>
       ))}</div>
   )
