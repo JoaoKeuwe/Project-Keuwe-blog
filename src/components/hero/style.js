@@ -15,13 +15,24 @@ export const HeaderHero = styled.header`
   position: relative;
   border-bottom: 1px solid black;
 
-  h1 {
+  & > div {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4rem;
-    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 4rem;
+      color: #fff;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #fff;
+     
+    }
   }
 `;
 
