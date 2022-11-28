@@ -1,8 +1,16 @@
 import React from 'react'
+import { useLocation } from 'react-router'
 import Logo from '../../images/logo.webp'
 import * as S from './style'
 
-function Hero() {
+export function Hero() {
+  const location = useLocation()
+
+  const subTitle = () => {
+    if (location.pathname === '/') {
+      return 'Posts'
+  }else return "Comentarios"
+}
   return (
     <S.HeaderHero>
       <S.NavMenu>
@@ -12,9 +20,10 @@ function Hero() {
           <a href='/'>Users</a>
         </S.NavOptions>
       </S.NavMenu>
-      <h1>Blog Btix</h1>
+      <div>
+        <h1>Blog Btix</h1>
+        <h2>{subTitle()}</h2>
+      </div>
     </S.HeaderHero>
   )
 }
-
-export default Hero

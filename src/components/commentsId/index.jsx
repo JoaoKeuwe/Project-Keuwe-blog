@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from "react-router-dom";
-import Hero from '../hero'
 
 function CommentsId() {
   const { id } = useParams()
@@ -22,13 +21,12 @@ function CommentsId() {
 
   return (
     <div>
-      <Hero />
       {commentsId.map((commentsId) => (
-        <main>
+        <div>
           <h2>{commentsId.name}</h2>
           <p>{commentsId.body}</p>
           <hr />
-        </main>
+        </div>
       ))}
     </div>
   )
