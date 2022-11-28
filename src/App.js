@@ -1,11 +1,17 @@
 import './App.css';
 import Home from './pages/Home'
+import Comments from './pages/Comments'
+
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Router>
+      <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/comments' element={<Comments />} />
+      </Routes>
+    </Router>
   );
 }
 
