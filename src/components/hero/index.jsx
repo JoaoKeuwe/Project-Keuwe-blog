@@ -6,9 +6,11 @@ function Hero() {
   return (
     <header className={styles.header}>
       <nav>
-        <img width={100} src={Logo} alt="Logo da empresa Btix" className={styles.logo}/>
+        <img width={120} src={Logo} alt="Logo da empresa Btix" />
+        <div className={styles.nav_options}>
         <a href='/'>Posts</a>
         <a href='/'>Users</a>
+        </div>
       </nav>
       <h1 className={styles.header_title}>Blog Btix</h1>
     </header>
