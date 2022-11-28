@@ -10,7 +10,6 @@ function Hero() {
         <div className={styles.nav_options}>
           <a href='/'>Posts</a>
           <a href='/'>Users</a>
-          <a href='/comments'>Cometários</a>
         </div>
       </nav>
       <h1 className={styles.header_title}>Blog Btix</h1>
