@@ -1,7 +1,7 @@
 import React from 'react';
 import { Posts } from './components/posts';
 
-function HomePage() {
+export default function HomePage() {
 
   return (
     <main>
@@ -10,4 +10,3 @@ function HomePage() {
   )
 }
 
-export default HomePage

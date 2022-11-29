@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from "react"
 import PostCard from '../../../../components/postCard';
-import * as S from './style' 
+import * as S from './style'
 
 export function Posts() {
   const [pagination, setPagination] = useState({ page: 1, content: [] })
@@ -43,18 +43,22 @@ export function Posts() {
   return (
     <S.PostContainer>
       {pagination.content.map((post) => (
-        
-          <PostCard
-            key={post.id}
-            id={post.id}
-            title={post.title}
-            body={post.body}
-          />
-        
+
+        <PostCard
+          key={post.id}
+          id={post.id}
+          title={post.title}
+          body={post.body}
+        />
+
       ))}
 
-      <button onClick={() => nextPage()}>Próxima página</button>
-      <button onClick={() => previousPage()}>Página anterior</button>
+      <button onClick={() => nextPage()}>Próxima página <span class="material-symbols-outlined">
+arrow_forward
+</span> </button>
+      <button onClick={() => previousPage()}>Página anterior <span class="material-symbols-outlined">
+        arrow_back
+      </span> </button>
     </S.PostContainer>
   )
 }

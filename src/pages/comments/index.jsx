@@ -1,7 +1,7 @@
 import React from 'react'
 import CommentsId from '../../components/commentsId'
 
-function CommentsPage() {
+export default function CommentsPage() {
   return (
     <main>
       <CommentsId />
@@ -9,4 +9,3 @@ function CommentsPage() {
   )
 }
 
-export default CommentsPage

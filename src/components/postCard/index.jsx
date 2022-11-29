@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom"
 import * as S from './style'
 
-function PostCard({ id, title, body }) {
+export default function PostCard({ id, title, body }) {
   return (
     <S.PostContainer>
       <Link to={`/comments/${id}`} className='PostLink'>
@@ -13,5 +13,3 @@ function PostCard({ id, title, body }) {
     </S.PostContainer>
   )
 }
-
-export default PostCard
