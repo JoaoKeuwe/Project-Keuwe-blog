@@ -53,7 +53,7 @@ export const NavOptions = styled.div`
     transition: 0.5s;
     &:hover {
       scale: 1.5;
-      color: rgba(109, 5, 207, 0.693);
+      color: #fff;
     }
   }
 `;

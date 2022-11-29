@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from "react-router-dom";
+import * as S from './style'
 
-function CommentsId() {
+export default function CommentsId() {
   const { id } = useParams()
   const [commentsId, setCommentsId] = useState([])
 
@@ -22,14 +23,15 @@ function CommentsId() {
   return (
     <div>
       {commentsId.map((commentsId) => (
-        <div>
-          <h2>{commentsId.name}</h2>
+        <S.Comments>
+          <h2><span class="material-symbols-outlined">
+            account_circle
+          </span> {commentsId.name}</h2>
           <p>{commentsId.body}</p>
           <hr />
-        </div>
+        </S.Comments>
       ))}
     </div>
   )
 }
 
-export default CommentsId

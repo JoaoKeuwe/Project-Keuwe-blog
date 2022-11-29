@@ -17,7 +17,6 @@ export function Hero() {
         <img width={120} src={Logo} alt="Logo da empresa Btix" />
         <S.NavOptions>
           <a href='/'>Posts</a>
-          <a href='/'>Users</a>
         </S.NavOptions>
       </S.NavMenu>
       <div>
