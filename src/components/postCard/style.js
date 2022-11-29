@@ -1,20 +1,20 @@
 import styled from "styled-components";
 
 export const PostContainer = styled.div`
-  padding: 20px;
+  padding-bottom: 30px;
   align-items: center;
 
   a {
     cursor: pointer;
     &:hover {
-      color: #040B98;
-      transition: 0.8s;
+      color: #040b98;
+      transition: 0.3s;
     }
   }
   h2 {
-    padding-bottom: 10px;
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 35px;
+    margin-bottom: 10px;
   }
 
   p {
