@@ -53,12 +53,19 @@ export function Posts() {
 
       ))}
 
-      <button onClick={() => nextPage()}>Próxima página <span class="material-symbols-outlined">
-arrow_forward
-</span> </button>
-      <button onClick={() => previousPage()}>Página anterior <span class="material-symbols-outlined">
-        arrow_back
-      </span> </button>
+
+      <button onClick={() => nextPage()}>Próxima página
+        <span class="material-symbols-outlined">
+          arrow_forward
+        </span>
+
+      </button>
+      <button onClick={() => previousPage()}>Página anterior
+        <span class="material-symbols-outlined">
+          arrow_back
+        </span>
+      </button>
+
     </S.PostContainer>
   )
 }
