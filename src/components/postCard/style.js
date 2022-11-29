@@ -7,8 +7,17 @@ export const PostContainer = styled.div`
   a {
     cursor: pointer;
     &:hover {
-      color: blue;
+      color: #040B98;
       transition: 0.8s;
     }
+  }
+  h2 {
+    padding-bottom: 10px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 20px;
   }
 `;

@@ -3,7 +3,7 @@ import { Outlet } from 'react-router'
 import { Hero } from '../../components/hero'
 import * as S from './style'
 
-function DefaultLayout() {
+export default function DefaultLayout() {
   return (
     <S.LayoutContainer>
     <Hero />
@@ -14,4 +14,3 @@ function DefaultLayout() {
   )
 }
 
-export default DefaultLayout
