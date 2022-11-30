@@ -6,11 +6,13 @@ import * as S from './style'
 export function Hero() {
   const location = useLocation()
 
+// Criando propriedade no Hero que de acordo com a URL troca a mensagem central, entre comentarios e posts
   const subTitle = () => {
     if (location.pathname === '/') {
       return 'Posts'
   }else return "Comentarios"
 }
+
   return (
     <S.HeaderHero>
       <S.NavMenu>

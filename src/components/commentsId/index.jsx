@@ -6,6 +6,8 @@ export default function CommentsId() {
   const { id } = useParams()
   const [commentsId, setCommentsId] = useState([])
 
+  // fazendo requisição à api de comentarios pelo id
+  
   const state = () => {
     fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
       .then(response => {
