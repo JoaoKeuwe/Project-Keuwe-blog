@@ -17,7 +17,7 @@ export const Button = styled.button`
   border-width: 0;
 
   &:hover {
-    background: #1c0061;
+    background: #380699;
   }
 
   &:active {

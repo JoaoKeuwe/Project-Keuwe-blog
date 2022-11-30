@@ -7,8 +7,8 @@ export const PostContainer = styled.div`
   a {
     cursor: pointer;
     &:hover {
-      color: #040b98;
-      transition: 0.3s;
+      color: #3C09BB;
+      transition: 0.2s;
     }
   }
   h2 {

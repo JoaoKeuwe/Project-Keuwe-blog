@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router'
 import { Hero } from '../../components/hero'
-import { Posts } from '../../pages/home/components/posts'
+
 import * as S from './style'
 
 export default function DefaultLayout() {
