@@ -3,6 +3,11 @@
 </p>
 <br>
 
+(📱Caso esteja pelo celular é so clicar no link abaixo📱)
+
+https://user-images.githubusercontent.com/91097315/204686549-47b2266f-fc49-41a6-a20c-a8786bf8a56f.mp4
+
+
 ## Sobre o Projeto
 
 O projeto BtixBlog, é um blog onde se pode realizar a leitura de blogs(posts) e também os comentários associados à ele. O projeto foi desenvolvido em cerca de 5 dias.<br>
