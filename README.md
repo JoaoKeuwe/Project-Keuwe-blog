@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<p align="center">
+ <img src="/public/logoBtix.webp" alt="collection" width="150px" height="150px"/>
+</p>
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto
 
-## Available Scripts
+O projeto BtixBlog, é um blog onde se pode realizar a leitura de blogs(posts) e também os comentários associados à ele. O projeto foi desenvolvido em cerca de 5 dias.<br>
 
-In the project directory, you can run:
+## O que foi passado no desafio:
 
-### `npm start`
+A equipe recebeu uma demanda para desenvolver um front-end para uma API RESTful. No cenário proposto, a interface deve exibir posts de um blog e, ao clicar em um post, os comentários associados. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Você ficou responsável pela demanda e sua tarefa é projetar uma interface para atender as necessidades. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Com isso foram enviadas 4 API´s para que fossem consumidas no front-end da aplicação.
 
-### `npm test`
+<br><br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ReactJs](https://pt-br.reactjs.org/)
+- [CSS- Styled Components](https://styled-components.com/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Google fonts | Icons](https://fonts.google.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Desenvolvimento
 
-### `npm run eject`
+Aplicação foi desenvolvida de acordo com os critérios fornecidos para o teste.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Não foi estabelecido um design para a aplicação, logo, o desenvolvedor estava livre para utilizar a criatividade.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A aplicação foi desenvolvida utilizando o conceito de mobile first, logo a mesma está responsiva.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Na página de posts, foi adicionado a funcionalidade de páginação ( a api retorna uma lista de 100 posts),logo, houve uma tratativa para o não carregamento de todas os posts de uma única vez na interface da aplicação.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ainda na página de posts, ao realizar um hover em cima do autor do post, será possível visualizar um card de informações sobre o autor.
 
-## Learn More
+Ao abrir um post específico, serão exibidos os comentários relacionados a aquele post e houve uma tratativa para o redirecionamento de página, caso o usuário tente acessar um post inexistente.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Foram desenvolvidos testes unitários.<br><br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Guia de instalação do projeto para a sua máquina !
 
-### Code Splitting
+```bash
+ # Clonar o repositório
+ $ git clone git@github.com:JoaoKeuwe/Project-Test-Btix-blog.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ # Entrar no diretório(pasta) da aplicação
+ $ cd btix-blog
 
-### Analyzing the Bundle Size
+ # Instalar todas as dependencias de desenvolvimento do projeto (necessita ter o Node(npm) instalado)
+ $ npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ # Comando para executar o projeto
+ $ npm start
+ 
+ # Caso não abra direto em seu navegador digitar no campo de busca 
+ $ http://localhost:3000/
+ 
+ # Comando caso queira executar os testes
+ $ npm run test
+```
+<br>
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deploy do projeto
+[Btix-Blog](https://blogbtix.netlify.app/)
