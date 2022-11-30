@@ -21,7 +21,7 @@ Você ficou responsável pela demanda e sua tarefa é projetar uma interface par
 Com isso foram enviadas 4 API´s para que fossem consumidas no front-end da aplicação.
 
 
-## Tecnologias utilizadas?
+## Tecnologias utilizadas:
 
 - [ReactJs](https://pt-br.reactjs.org/)
 - [CSS- Styled Components](https://styled-components.com/)
