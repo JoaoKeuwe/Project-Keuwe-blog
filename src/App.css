@@ -1,36 +1,36 @@
 /* reset do css */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 
 * {
-    scrollbar-width: thin;
-    scrollbar-color: #FF1414 #e8e8e8;
-  }
-  
-  /* Works on Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 0.9rem;
-  }
-  
-  *::-webkit-scrollbar-track {
-    background: #020202;
-  }
-  
-  *::-webkit-scrollbar-thumb {
-    background-color: #46069fb8;
-    border: 1px solid #000000;
-  }
+  scrollbar-width: thin;
+  scrollbar-color: #FF1414 #e8e8e8;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0.9rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: #020202;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #46069fb8;
+  border: 1px solid #000000;
+}
