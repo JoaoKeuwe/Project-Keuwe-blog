@@ -14,3 +14,23 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #FF1414 #e8e8e8;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0.9rem;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #020202;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #46069fb8;
+    border: 1px solid #000000;
+  }
