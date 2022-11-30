@@ -12,7 +12,6 @@ export const PostContainer = styled.div`
     }
   }
   h2 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 35px;
     margin-bottom: 10px;
   }

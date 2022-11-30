@@ -53,24 +53,17 @@ export function Posts() {
 
       ))}
 
-      <button onClick={() => previousPage()} className="button2"  >Página anterior
-        <span class="material-symbols-outlined">
-          arrow_back
-        </span>
-      </button>
-
-      <button onClick={() => nextPage()} className="button1">Próxima página
-        <span class="material-symbols-outlined">
-          arrow_forward
-        </span>
-      </button>
+      <div className='buttons'>
+      <Button onClick={() => previousPage()} text="Página anterior"/>
+      <Button onClick={() => nextPage()} text="Próxima página"/>
+      </div>
 
 
     </S.PostContainer>
   )
 }
-
-
-
-
-
+function Button ({text, onClick}) {
+  return <S.Button onClick={onClick} type="button">
+    {text}
+  </S.Button>
+}

@@ -25,48 +25,13 @@ export const HeaderHero = styled.header`
     align-items: center;
 
     h1 {
-      font-size: 5rem;
+      font-size: 6rem;
       color: #fff;
+      text-align:center;
     }
     h2 {
       font-size: 2rem;
       color: #fff;
-    }
-
-    @media (max-width: 635px) {
-      h1 {
-        font-size: 4.5rem;
-      }
-    }
-
-    @media (max-width: 635px) {
-      h1 {
-        font-size: 3rem;
-      }
-    }
-
-    @media (max-width: 375px) {
-      h1 {
-        font-size: 2.8rem;
-      }
-    }
-
-    @media (max-width: 383px) {
-      h1 {
-        font-size: 2.5rem;
-      }
-    }
-
-    @media (max-width: 320px) {
-      h1 {
-        font-size: 2.2rem;
-      }
-    }
-
-    @media (max-width: 285px) {
-      h1 {
-        font-size: 1.5rem;
-      }
     }
   }
 `;
