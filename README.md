@@ -15,8 +15,7 @@ Você ficou responsável pela demanda e sua tarefa é projetar uma interface par
 
 Com isso foram enviadas 4 API´s para que fossem consumidas no front-end da aplicação.
 
-<br><br>
-
+<br>
 
 ## Tecnologias utilizadas
 
@@ -27,21 +26,7 @@ Com isso foram enviadas 4 API´s para que fossem consumidas no front-end da apli
 
 <br>
 
-## Desenvolvimento
 
-Aplicação foi desenvolvida de acordo com os critérios fornecidos para o teste.
-
-Não foi estabelecido um design para a aplicação, logo, o desenvolvedor estava livre para utilizar a criatividade.
-
-A aplicação foi desenvolvida utilizando o conceito de mobile first, logo a mesma está responsiva.
-
-Na página de posts, foi adicionado a funcionalidade de páginação ( a api retorna uma lista de 100 posts),logo, houve uma tratativa para o não carregamento de todas os posts de uma única vez na interface da aplicação.
-
-Ainda na página de posts, ao realizar um hover em cima do autor do post, será possível visualizar um card de informações sobre o autor.
-
-Ao abrir um post específico, serão exibidos os comentários relacionados a aquele post e houve uma tratativa para o redirecionamento de página, caso o usuário tente acessar um post inexistente.
-
-Foram desenvolvidos testes unitários.<br><br>
 
 ## Guia de instalação do projeto para a sua máquina !
 
