@@ -3,6 +3,11 @@
 </p>
 <br>
 
+(📱Caso esteja pelo celular é so clicar no link abaixo📱)
+
+https://user-images.githubusercontent.com/91097315/204686549-47b2266f-fc49-41a6-a20c-a8786bf8a56f.mp4
+
+
 ## Sobre o Projeto
 
 O projeto BtixBlog, é um blog onde se pode realizar a leitura de blogs(posts) e também os comentários associados à ele. O projeto foi desenvolvido em cerca de 5 dias.<br>
@@ -16,7 +21,7 @@ Você ficou responsável pela demanda e sua tarefa é projetar uma interface par
 Com isso foram enviadas 4 API´s para que fossem consumidas no front-end da aplicação.
 
 
-## Tecnologias utilizadas?
+## Tecnologias utilizadas:
 
 - [ReactJs](https://pt-br.reactjs.org/)
 - [CSS- Styled Components](https://styled-components.com/)
@@ -26,13 +31,13 @@ Com isso foram enviadas 4 API´s para que fossem consumidas no front-end da apli
 # Sobre o que foi desenvolvido no projeto:
 👨🏾‍💻 Foram utilizadas metodologias que são aplicadas no mercado de trabalho, principalmente na organização das pastas e o nome de cada uma delas, ja sendo feito pensando em atualizações futuras, com a pesquisa orientada a pastas e não só a arquivos, pois em uma grande aplicação muitos nomes de arquivos podem se repetir.
  
-📲 Projeto totalmente repsonsivo, tanto para celulares e tablets, quando para o desktop !
+📲 Projeto totalmente repsonsivo, tanto para celulares e tablets, quanto para o desktop !
 
 🔥 Foram feitos diversos commits pensando em mostrar a trajetória do projeto desde seu inicio, com pequenos e descritivos commits.
 
-🎨 Como não nos foi passado nenhu template para seguir o design do site foi totalmente pensado e feito por mim através de CSS-styled-components.
+🎨 Como não nos foi passado nenhum template para seguir o design do site foi totalmente pensado e feito por mim através de CSS-styled-components.
 
-🚩 Como a API principal nos retornava 100 posts, fiz uma lógica em que renderizasse apenas 10 posts por página e as páginas pudessem ser alternadas através de dois botões presentes no final do Blog( Página anterior e Proxima página), para uma melhor performance do site, fiz a renderização na mesma página, evitando assim ter diversas páginas deixando o site mais pesado e consequentemente mais lento.
+🚩 Como a API principal nos retornava 100 posts, fiz uma lógica em que renderizasse apenas 10 posts por página e as páginas pudessem ser alternadas através de dois botões presentes no final do Blog( Página anterior e Proxima página), para uma melhor performance do site, fiz a renderização na mesma página, evitando assim ter diversas rotas deixando o site mais pesado e consequentemente mais lento.
 
 
 ## Guia de instalação do projeto para a sua máquina !
