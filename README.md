@@ -15,17 +15,24 @@ Você ficou responsável pela demanda e sua tarefa é projetar uma interface par
 
 Com isso foram enviadas 4 API´s para que fossem consumidas no front-end da aplicação.
 
-<br>
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas?
 
 - [ReactJs](https://pt-br.reactjs.org/)
 - [CSS- Styled Components](https://styled-components.com/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [Google fonts | Icons](https://fonts.google.com/)
 
-<br>
+# Sobre o que foi desenvolvido no projeto:
+👨🏾‍💻 Foram utilizadas metodologias que são aplicadas no mercado de trabalho, principalmente na organização das pastas e o nome de cada uma delas, ja sendo feito pensando em atualizações futuras, com a pesquisa orientada a pastas e não só a arquivos, pois em uma grande aplicação muitos nomes de arquivos podem se repetir.
+ 
+📲 Projeto totalmente repsonsivo, tanto para celulares e tablets, quando para o desktop !
 
+🔥 Foram feitos diversos commits pensando em mostrar a trajetória do projeto desde seu inicio, com pequenos e descritivos commits.
+
+🎨 Como não nos foi passado nenhu template para seguir o design do site foi totalmente pensado e feito por mim através de CSS-styled-components.
+
+🚩 Como a API principal nos retornava 100 posts, fiz uma lógica em que renderizasse apenas 10 posts por página e as páginas pudessem ser alternadas através de dois botões presentes no final do Blog( Página anterior e Proxima página), para uma melhor performance do site, fiz a renderização na mesma página, evitando assim ter diversas páginas deixando o site mais pesado e consequentemente mais lento.
 
 
 ## Guia de instalação do projeto para a sua máquina !
@@ -52,4 +59,4 @@ Com isso foram enviadas 4 API´s para que fossem consumidas no front-end da apli
 <br>
 
 ## Deploy do projeto
-[Btix-Blog](https://blogbtix.netlify.app/)
+Acesse: [Btix-Blog](https://blogbtix.netlify.app/)
