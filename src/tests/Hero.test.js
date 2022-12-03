@@ -2,16 +2,6 @@ import { render, screen } from "@testing-library/react"
 import "@testing-library/jest-dom";
 import App from '../App'
 
-describe("Hero Component Title", () => {
-    test("deve conter o texto 'Blog Btix'", () => {
-        render(<App /> );
-
-        const Hero = screen.getByRole('heading', {
-            name: /blog btix/i
-          })
-        expect(Hero).toBeInTheDocument();
-    });
-})
 
 describe("Hero Component Link", () => {
     test("deve conter o link 'posts'", () => {
@@ -25,11 +15,11 @@ describe("Hero Component Link", () => {
 })
 
 describe("Hero Component image", () => {
-    test("deve conter a a imagem com o logo da empresa'", () => {
+    test("deve conter a a imagem com o logo'", () => {
         render(<App /> );
 
         const HeroImage = screen.getByRole('img', {
-            name: /logo da empresa btix/i
+            name: /logo /i
           })
         expect(HeroImage).toBeInTheDocument();
     });
