@@ -1,5 +1,5 @@
 <p align="center">
- <img src="/public/logoBtix.webp" alt="collection" width="150px" height="150px"/>
+
 </p>
 <br>
 
