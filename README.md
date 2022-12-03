@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/91097315/204686549-47b2266f-fc49-41a6-
 
 ## Sobre o Projeto
 
-O projeto BtixBlog, é um blog onde se pode realizar a leitura de blogs(posts) e também os comentários associados à ele. O projeto foi desenvolvido em cerca de 5 dias.<br>
+O projeto Keuwe Blog, é um blog onde se pode realizar a leitura de blogs(posts) e também os comentários associados à ele. O projeto foi desenvolvido em cerca de 5 dias.<br>
 
 ## O que foi passado no desafio:
 
@@ -44,10 +44,10 @@ Com isso foram enviadas 4 API´s para que fossem consumidas no front-end da apli
 
 ```bash
  # Clonar o repositório
- $ git clone git@github.com:JoaoKeuwe/Project-Test-Btix-blog.git
+ $ git clone git@github.com:JoaoKeuwe/Project-Keuwe-blog.git
 
  # Entrar no diretório(pasta) da aplicação
- $ cd btix-blog
+ $ cd keuwe-blog
 
  # Instalar todas as dependencias de desenvolvimento do projeto (necessita ter o Node(npm) instalado)
  $ npm install
@@ -64,4 +64,4 @@ Com isso foram enviadas 4 API´s para que fossem consumidas no front-end da apli
 <br>
 
 ## Deploy do projeto
-Acesse: [Btix-Blog](https://blogbtix.netlify.app/)
+Acesse: [Keuwe-Blog](https://keuweblog.netlify.app/)
