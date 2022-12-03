@@ -4,7 +4,7 @@ import heroImage from "../../images/imageHero.jpg";
 export const HeaderHero = styled.header`
   background: linear-gradient(
   0deg,
-  rgba(39, 0, 112, 0.712),
+  rgba(100, 3,155, 0.712),
   rgba(47, 46, 47, 0.375)
   ),
     url(${heroImage});
@@ -26,14 +26,11 @@ export const HeaderHero = styled.header`
     flex-direction: column;
     align-items: center;
 
-    h1 {
-      font-size: 6rem;
-      color: #fff;
-      text-align: center;
-    }
     h2 {
       font-size: 2rem;
       color: #fff;
+      margin-top: -3em;
+      margin-bottom: 3em;
     }
   }
 `;
@@ -41,7 +38,8 @@ export const HeaderHero = styled.header`
 export const NavMenu = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+
 `;
 
 export const NavOptions = styled.div`
@@ -50,7 +48,7 @@ export const NavOptions = styled.div`
 
   a {
     color: #fff;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
     transition: 0.5s;
     
